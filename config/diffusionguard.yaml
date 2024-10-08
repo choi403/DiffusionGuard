@@ -1,0 +1,20 @@
+exp_name: exp
+method: diffusionguard
+orig_image_name: "keanu.png"
+mask_image_names:
+  - "keanu_mask.png"
+model:
+  inpainting: "runwayml/stable-diffusion-inpainting"
+training:
+  size: 512
+  iters: 800
+  grad_reps: 1
+  batch_size: 1
+  eps: 0.06274509803921569
+  step_size: 0.00392156862745098
+  num_inference_steps: 4
+  mask:
+    generation_method: "contour_shrink"
+    contour_strength: 1.1
+    contour_iters: 15
+    contour_smoothness: 0.1
