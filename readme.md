@@ -1,6 +1,6 @@
 ## Introduction
 
-This is the official repo of the paper "DiffusionGuard: A Robust Defense Against Malicious Diffusion-based Image Editing"
+This is the official repo of the paper ["DiffusionGuard: A Robust Defense Against Malicious Diffusion-based Image Editing"](https://arxiv.org/abs/2410.05694)
 
 ## Contents
 
