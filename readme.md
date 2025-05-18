@@ -78,4 +78,4 @@ If multiple mask images are given, the code will automatically merge them by tak
 
 ## Dataset
 
-Our dataset is available at [this Google Drive link](https://drive.google.com/file/d/1kG6hscaVpI81P5QvKgTB1y1Lu9_bwo4E/view?usp=drive_link).
+Our dataset is available at [this Google Drive link](https://drive.google.com/file/d/1EDVdqkdSY98xAGPJP0YDDC7SY25lX4qs/view).
