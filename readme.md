@@ -1,3 +1,5 @@
+> **Update (May 19, 2025):** We have added a link to the full dataset in the [Dataset](#dataset) section below.
+
 ## Introduction
 
 This is the official repo of the paper ["DiffusionGuard: A Robust Defense Against Malicious Diffusion-based Image Editing"](https://arxiv.org/abs/2410.05694) (ICLR 2025).
@@ -10,6 +12,7 @@ This is the official repo of the paper ["DiffusionGuard: A Robust Defense Agains
   - [Python environments](#python-environments)
 - [Protecting images against inpainting](#protecting-images-against-inpainting)
 - [Configuration](#configuration)
+- [Dataset](#dataset)
 
 ## Installation
 
@@ -72,3 +75,7 @@ If multiple mask images are given, the code will automatically merge them by tak
     - `contour_iters`: Shrink iterations for `contour_shrink` method. Defaults to `15`.
 
     - `contour_smoothness`: Contour smoothing parameter for `contour_shrink` method. Defaults to `0.1`.
+
+## Dataset
+
+Our dataset is available at [this Google Drive link](https://drive.google.com/file/d/1kG6hscaVpI81P5QvKgTB1y1Lu9_bwo4E/view?usp=drive_link).
